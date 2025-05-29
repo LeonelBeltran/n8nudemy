@@ -20,10 +20,15 @@
   "files": [
     "dist/**/*"
   ],
-  "engines": {
-
-    "node": ">=18.0.0 <20.0.0",
-
+  "dependencies": {
+    "@n8n/di": "workspace:*",
+    "reflect-metadata": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@n8n/typescript-config": "workspace:*"
+  }
+}
     "pnpm": ">=10.2.1"
 
   },
